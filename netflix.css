@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+    color: white;
+}
+
+header{ 
+    background-image: url(/photo/Netflix-Background.jpg);
+    height: 723px;
+    background-size: cover;
+    position: relative;
+}
+.background-opacity{
+    height: 620px;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    background-color: black; 
+}  
+
+/** Navbar **/
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navall {
+    position: relative;
+}
+.logo {
+    background-image: url(/photo/logo.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 500px;
+}
+
+.nav-signin{
+    width: 707px;
+    text-align: right;
+    height: 40px;
+}
+
+.nav-signin button {
+    height: 32px;
+    width: 75px;
+    background-color: #e50914;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-weight: bold;
+    border: 2px solid #e50914;
+    border-radius: 4px;
+}
+
+.nav-signin button:hover{
+    background-color: #b80e17;
+    border: 2px solid #b60c14;
+   transition: 0.5s;
+}
+
+/** Middle **/
+
+.middle {
+    height: 400px;
+    margin-top: 140px;
+    margin-left: 180px;
+}
+.middle1 {
+    width: 600px;
+}
+
+.middle1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+.middle1 p {
+    font-size: 18px;
+    font-weight: 50;
+    padding-top: 15px;
+}
+
+.middle2 h3{
+    font-size: 16px;
+    font-weight: 580;
+    color: #b0b0af;
+    margin-top: 50px;
+}
+.middle2 input{
+    margin-top: 20px;
+    width: 520px;
+    height: 48px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 0.5px solid rgba(71, 69, 69, 0.966);
+    border-radius: 4px;
+}
+::-webkit-input-placeholder {
+    color: #b0b0af;
+    padding-left: 10px; 
+}
+.middle2 button {
+    height: 55px;
+    width: 160px;
+    background-color: #e50914;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.middle2 button i {
+    margin-left: 10px;
+}
+.middle2 button:hover{
+    background-color: #c0121b;
+    border: 2px solid #b60c14;
+   transition: 0.2s;
+}
+
+
+
+
+
+/** Main Body **/
+
+.main-body {
+    height: 1500px;
+    background-color: #010101;
+    padding-left: 12%;
+    padding-right: 9%;
+}
+
+.box1 {
+    height: 100px;
+    width: 995px;
+    background-color: #2a0d26;
+    padding: 32px 16px 0px 50px;
+    border: 2px solid #2a0d26;
+    border-radius: 20px;
+}
+.box1 h3 {
+    font-size: 40px;
+}
+.box1 p {
+    font-size: 18px;
+    color: #bdb0b8;
+    margin-top: 8px;
+}
+.box2{
+    margin-top: 60px;
+}
+.what-can-do {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.what-can-do h2 {
+    color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.box {
+    height: 260px;
+    width: 327px;
+    background-color: #1d172e;
+    margin: 7px 14px 0px 0px;
+    border: 2px solid #1d172e;
+    border-radius: 20px;
+    padding: 20px 15px 0px 15px;
+}
+
+.box h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: #b3b4be;
+    font-size: 17px;
+}
+
+.box3 {
+    margin-top: 60px;
+}
+.box3 h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+.box3 button{
+    width: 842px;
+    background-color: #2d2d2d;
+    padding: 24px;
+    font-size: 24px;
+    text-align: left;
+    border: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
